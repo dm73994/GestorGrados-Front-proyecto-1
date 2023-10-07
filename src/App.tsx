@@ -1,13 +1,10 @@
-import { BrowserRouter } from "react-router-dom";
-import MainRouter from "./Router/MainRouter";
+import { LoginPage } from "./components/pages/auth/LoginPage";
 
 
 export const App = () => {
   
   return (
-    <BrowserRouter basename="/">
-      <MainRouter />
-    </BrowserRouter>
+    <LoginPage />
   )
 }
 

@@ -5,9 +5,6 @@ interface reqHeaders {
 }
 
 const AxiosConfig = ({token}: reqHeaders) => {
-
-  console.log("HOLA DESDE AXIOS")
-  //console.log(process.env.API_DEV)
   const instance = axios.create({
     baseURL: 'http://localhost:5000',
   });
